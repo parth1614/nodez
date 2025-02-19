@@ -1,0 +1,300 @@
+{
+	"id": "7429ccfa-64f6-452e-b3bc-2cc4f905cf41",
+	"createdAt": "2024-10-25T11:43:40.397Z",
+	"updatedAt": "2024-10-25T11:43:58.721Z",
+	"mode": "payment",
+	"paymentMethodTypes": [
+	  "wallet"
+	],
+	"paymentSetting": {
+	  "allowedChains": [
+		{
+		  "chainId": 84532
+		}
+	  ],
+	  "paymentMethodTypes": [
+		"wallet"
+	  ],
+	  "preferredChainId": 84532,
+	  "allowSwap": false
+	},
+	"customerCreation": "if_required",
+	"customerUpdate": null,
+	"submitType": "pay",
+	"afterCompletion": "redirect",
+	"organizationId": "62927a90-fa6b-4562-8e51-bc7806caf17d",
+	"isManualPayment": true,
+	"currency": "usdt",
+	"amountFee": "0",
+	"amountGasFee": null,
+	"amountSubtotal": "21990000",
+	"amountTotal": "21990000",
+	"paymentLinkId": null,
+	"subscriptionId": null,
+	"invoiceId": null,
+	"allowPromotionCodes": false,
+	"defaultPromotionCode": null,
+	"status": "complete",
+	"expiresAt": "2024-10-25T12:43:40.436Z",
+	"customerId": null,
+	"clientReferenceId": null,
+	"successUrl": "https://cb69-2406-7400-94-a978-448-39b7-e568-a002.ngrok-free.app/payments?success=true&cid=7429ccfa-64f6-452e-b3bc-2cc4f905cf41",
+	"cancelUrl": "https://cb69-2406-7400-94-a978-448-39b7-e568-a002.ngrok-free.app/payments?success=false&cid=7429ccfa-64f6-452e-b3bc-2cc4f905cf41",
+	"paymentStatus": "paid",
+	"metadata": {
+	  "node_id": "ad71a2e7-d17e-40df-8967-70cb65b740d6",
+	  "plan": "1 month",
+	  "quantity": 1,
+	  "duration": "1",
+	  "order_id": "d28d44f2-307c-4ec8-b409-0f137902c188"
+	},
+	"nameCollection": false,
+	"emailCollection": false,
+	"phoneNumberCollection": false,
+	"shippingAddressCollection": false,
+	"billingAddressCollection": false,
+	"customFields": {},
+	"afterCompletionConfirmMsg": null,
+	"shippingDetails": {},
+	"billingDetails": {},
+	"url": "https://buy.copperx.dev/payment/checkout-session/7429ccfa-64f6-452e-b3bc-2cc4f905cf41",
+	"customerDetails": {
+	  "address": {}
+	},
+	"lineItems": {
+	  "object": "list",
+	  "data": [
+		{
+		  "description": null,
+		  "quantity": 1,
+		  "price": {
+			"id": "aec3a218-08d8-4ecf-94e3-8f1a296fecc9",
+			"createdAt": "2024-10-25T11:43:40.427Z",
+			"updatedAt": "2024-10-25T11:43:40.427Z",
+			"billingScheme": "per_unit",
+			"currency": "usdt",
+			"productId": "484c0ef9-b5c2-4921-b71b-2b0a47c70119",
+			"interval": null,
+			"intervalCount": null,
+			"usageType": null,
+			"type": "one_time",
+			"unitAmount": "21990000",
+			"unitAmountDecimal": null,
+			"customUnitMax": null,
+			"customUnitMin": null,
+			"customPreset": null,
+			"customUnitAmountSuggestions": null,
+			"product": {
+			  "id": "484c0ef9-b5c2-4921-b71b-2b0a47c70119",
+			  "createdAt": "2024-10-25T11:43:40.416Z",
+			  "updatedAt": "2024-10-25T11:43:40.434Z",
+			  "name": "1 month",
+			  "description": "For early stage projects who are getting started",
+			  "isActive": true,
+			  "images": [],
+			  "unitLabel": null,
+			  "url": null,
+			  "metadata": null,
+			  "defaultPriceId": "aec3a218-08d8-4ecf-94e3-8f1a296fecc9",
+			  "visibility": 20
+			},
+			"metadata": null,
+			"isActive": true,
+			"visibility": 20
+		  },
+		  "amountTotal": "21990000",
+		  "amountSubtotal": "21990000",
+		  "amountTax": "0",
+		  "currency": "usdt",
+		  "taxRates": []
+		}
+	  ]
+	},
+	"addresses": [
+	  {
+		"id": "4f91a927-5f4c-491f-829e-b77511814223",
+		"createdAt": "2024-10-25T11:43:40.497Z",
+		"updatedAt": "2024-10-25T11:43:40.497Z",
+		"checkoutSessionId": "7429ccfa-64f6-452e-b3bc-2cc4f905cf41",
+		"asset": {
+		  "id": "b80c5591-02e1-4d8d-91d6-6b8fe9fe2815",
+		  "name": "USDT",
+		  "address": "0x0209d7a5cc652d11dbc3fbc85671f458204a531b",
+		  "chainId": 84532,
+		  "currency": "usdt",
+		  "symbol": "USDT",
+		  "decimals": 6,
+		  "coingeckoId": "tether",
+		  "isPublic": true,
+		  "chain": {
+			"id": 84532,
+			"name": "Base Sepolia",
+			"icon": "icon",
+			"currency": "eth",
+			"blockExplorerName": "Base Sepolia Explorer",
+			"blockExplorerTransactionUrl": "https://sepolia.basescan.org/tx/{hash}",
+			"type": "evm",
+			"isBeta": false
+		  }
+		},
+		"paymentAddress": "0x79812a603aa8390c33108977834e51aeb29a893d",
+		"gas": null,
+		"gasAmount": null
+	  }
+	],
+	"paymentIntent": {
+	  "id": "8cb83fc4-d5eb-4d5a-9377-0c32b2aeca31",
+	  "createdAt": "2024-10-25T11:43:40.397Z",
+	  "updatedAt": "2024-10-25T11:44:44.843Z",
+	  "organizationId": "62927a90-fa6b-4562-8e51-bc7806caf17d",
+	  "amount": "21990000",
+	  "amountReceived": "21990000",
+	  "currency": "usdt",
+	  "status": "succeeded",
+	  "paymentMethodId": "66191c31-3508-4c24-b454-b7c5ca91041f",
+	  "paymentMethod": {
+		"id": "66191c31-3508-4c24-b454-b7c5ca91041f",
+		"createdAt": "2024-10-25T11:43:44.209Z",
+		"updatedAt": "2024-10-25T11:43:58.277Z",
+		"assetId": "b80c5591-02e1-4d8d-91d6-6b8fe9fe2815",
+		"asset": {
+		  "id": "b80c5591-02e1-4d8d-91d6-6b8fe9fe2815",
+		  "name": "USDT",
+		  "chainId": 84532,
+		  "address": "0x0209d7a5cc652d11dbc3fbc85671f458204a531b",
+		  "currency": "usdt",
+		  "symbol": "USDT",
+		  "decimals": 6,
+		  "coingeckoId": "tether",
+		  "isEIP5827Supported": false
+		},
+		"type": "wallet",
+		"accountAddress": "0x9cdc34e9f2ba2bb35452d7088bab9ed11b0a4258",
+		"billingDetails": {},
+		"customerId": null,
+		"options": {
+		  "frontend": {
+			"transactionHash": "0x2ec1a23eb9fe21d4c6e47e46f8241720073b49134e09441a1fedd458f263022e"
+		  },
+		  "wallet": {
+			"assetId": "b80c5591-02e1-4d8d-91d6-6b8fe9fe2815",
+			"transactionHash": "0x2ec1a23eb9fe21d4c6e47e46f8241720073b49134e09441a1fedd458f263022e",
+			"contractAddress": "0x79812a603aa8390c33108977834e51aeb29a893d",
+			"implementationAddress": "0xa337d7c2d9ff553802b81d7fcde288ee8b9fa2d1"
+		  }
+		}
+	  },
+	  "paymentMethodTypes": [
+		"wallet"
+	  ],
+	  "description": null,
+	  "transferAccountAddress": "0x9cdc34e9f2ba2bb35452d7088bab9ed11b0a4258",
+	  "paymentReceipt": {
+		"id": "595be6ef-68ca-4a0e-8ed4-6c610596ea82",
+		"createdAt": "2024-10-25T11:43:58.905Z",
+		"updatedAt": "2024-10-25T11:43:58.905Z",
+		"organizationId": "62927a90-fa6b-4562-8e51-bc7806caf17d",
+		"paymentIntentId": "8cb83fc4-d5eb-4d5a-9377-0c32b2aeca31",
+		"name": null,
+		"receiptNumber": "24D4LHGE11-002",
+		"uri": null
+	  },
+	  "canceledAt": null,
+	  "cancellationReason": null,
+	  "isMarkRefunded": null,
+	  "markRefundedAt": null,
+	  "markRefundedComment": null,
+	  "transactions": [
+		{
+		  "type": "incoming",
+		  "transactionRelayId": null,
+		  "transactionHash": "0x2ec1a23eb9fe21d4c6e47e46f8241720073b49134e09441a1fedd458f263022e",
+		  "nonce": null,
+		  "gasLimit": null,
+		  "validUntil": null,
+		  "fromAddress": "0x9cdc34e9f2ba2bb35452d7088bab9ed11b0a4258",
+		  "toAddress": "0x79812a603aa8390c33108977834e51aeb29a893d",
+		  "currency": "usdt",
+		  "createdAt": "2024-10-25T11:43:58.233Z",
+		  "amount": "21990000",
+		  "amountRaw": "0.2199",
+		  "assetId": "b80c5591-02e1-4d8d-91d6-6b8fe9fe2815",
+		  "asset": {
+			"id": "b80c5591-02e1-4d8d-91d6-6b8fe9fe2815",
+			"name": "USDT",
+			"address": "0x0209d7a5cc652d11dbc3fbc85671f458204a531b",
+			"chainId": 84532,
+			"currency": "usdt",
+			"symbol": "USDT",
+			"decimals": 6,
+			"coingeckoId": "tether",
+			"isPublic": true,
+			"chain": {
+			  "id": 84532,
+			  "name": "Base Sepolia",
+			  "icon": "icon",
+			  "currency": "eth",
+			  "blockExplorerName": "Base Sepolia Explorer",
+			  "blockExplorerTransactionUrl": "https://sepolia.basescan.org/tx/{hash}",
+			  "type": "evm",
+			  "isBeta": false
+			}
+		  },
+		  "transactionUrl": "https://sepolia.basescan.org/tx/0x2ec1a23eb9fe21d4c6e47e46f8241720073b49134e09441a1fedd458f263022e"
+		},
+		{
+		  "type": "outgoing",
+		  "transactionRelayId": null,
+		  "transactionHash": "0xba729ed377669cd222a72d0a62a3c327fe5afbed37d6fff734dd03154ea83f11",
+		  "nonce": null,
+		  "gasLimit": null,
+		  "validUntil": null,
+		  "fromAddress": "0x79812a603aa8390c33108977834e51aeb29a893d",
+		  "toAddress": "0x9cdc34e9f2ba2bb35452d7088bab9ed11b0a4258",
+		  "currency": "usdt",
+		  "createdAt": "2024-10-25T11:44:44.820Z",
+		  "amount": "21990000",
+		  "amountRaw": "219900",
+		  "assetId": "b80c5591-02e1-4d8d-91d6-6b8fe9fe2815",
+		  "asset": {
+			"id": "b80c5591-02e1-4d8d-91d6-6b8fe9fe2815",
+			"name": "USDT",
+			"address": "0x0209d7a5cc652d11dbc3fbc85671f458204a531b",
+			"chainId": 84532,
+			"currency": "usdt",
+			"symbol": "USDT",
+			"decimals": 6,
+			"coingeckoId": "tether",
+			"isPublic": true,
+			"chain": {
+			  "id": 84532,
+			  "name": "Base Sepolia",
+			  "icon": "icon",
+			  "currency": "eth",
+			  "blockExplorerName": "Base Sepolia Explorer",
+			  "blockExplorerTransactionUrl": "https://sepolia.basescan.org/tx/{hash}",
+			  "type": "evm",
+			  "isBeta": false
+			}
+		  },
+		  "transactionUrl": "https://sepolia.basescan.org/tx/0xba729ed377669cd222a72d0a62a3c327fe5afbed37d6fff734dd03154ea83f11"
+		}
+	  ]
+	},
+	"isMarkRefunded": null,
+	"discounts": [],
+	"amountDetails": {
+	  "amountTotal": "21990000",
+	  "amountSubtotal": "21990000",
+	  "currency": "usdt",
+	  "amountDiscount": "0",
+	  "amountTax": "0",
+	  "amountFee": "219900",
+	  "amountGasFee": null,
+	  "feePercentage": 1,
+	  "applyFee": false,
+	  "applyGasFee": true,
+	  "discountAmounts": []
+	},
+	"amountNet": "21770100"
+  }

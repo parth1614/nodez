@@ -1,0 +1,36 @@
+import { FormMessage, Message } from '@/components/form-message'
+import { SubmitButton } from '@/components/submit-button'
+import { Input } from '@/components/ui/input'
+import { Label } from '@/components/ui/label'
+import Link from 'next/link'
+import { forgotPasswordAction } from '@/app/actions/authActions'
+
+export default function ForgotPassword({
+  searchParams,
+}: {
+  searchParams: Message
+}) {
+  return (
+    <div className="w-screen flex items-center h-screen justify-center gap-2 p-4">
+      <form className="flex flex-col w-full gap-2 text-foreground [&>input]:mb-6 min-w-64 max-w-64 mx-auto">
+        <div className="">
+          <h1 className="text-2xl font-medium py-2">Reset Password</h1>
+          <p className="text-sm text-secondary-foreground">
+            Already have an account?{' '}
+            <Link className="text-primary underline" href="/sign-in">
+              Sign in
+            </Link>
+          </p>
+        </div>
+        <div className="flex flex-col gap-2 [&>input]:mb-3 mt-8">
+          <Label htmlFor="email">Email</Label>
+          <Input name="email" placeholder="you@example.com" required />
+          <SubmitButton formAction={forgotPasswordAction}>
+            Reset Password
+          </SubmitButton>
+          <FormMessage message={searchParams} />
+        </div>
+      </form>
+    </div>
+  )
+}

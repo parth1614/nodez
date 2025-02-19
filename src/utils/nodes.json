@@ -1,0 +1,51 @@
+[
+  {
+    "id": "e5f6g7h8",
+    "name": "Farcaster",
+    "type": "Mainnet Hubble",
+    "logo": "/nodes_logo/farcaster.svg",
+    "slots": 18
+  },
+  {
+    "id": "a3b4c5d6",
+    "name": "Fuel",
+    "type": "Testnet Node",
+    "logo": "/nodes_logo/fuel_peering_node.svg",
+    "slots": 0
+  },
+  {
+    "id": "o1p2q3r4",
+    "name": "Eigen",
+    "type": "Mainnet - Operator",
+    "logo": "/nodes_logo/eigen_layer.svg",
+    "slots": 0
+  },
+  {
+    "id": "s5t6u7v8",
+    "name": "Linea",
+    "type": "Mainnet - Full Node",
+    "logo": "/nodes_logo/linea_mainnet.svg",
+    "slots": 0
+  },
+  {
+    "id": "g3h4i5j6",
+    "name": "Shardeum",
+    "type": "Testnet Validator",
+    "logo": "/nodes_logo/shardeum_validator.svg",
+    "slots": 0
+  },
+  {
+    "id": "a1b2c3d4",
+    "name": "Nubit",
+    "type": "Alpha Testnet - Light Node",
+    "logo": "/nodes_logo/nubit.svg",
+    "slots": 0
+  },
+  {
+    "id": "i9j0k1l2",
+    "name": "Piko",
+    "type": "Proposer Node",
+    "logo": "/nodes_logo/taiko_proposer.svg",
+    "slots": 0
+  }
+]
